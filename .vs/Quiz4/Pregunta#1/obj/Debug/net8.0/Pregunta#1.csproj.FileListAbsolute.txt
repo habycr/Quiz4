@@ -1,0 +1,15 @@
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\bin\Debug\net8.0\Pregunta#1.exe
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\bin\Debug\net8.0\Pregunta#1.deps.json
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\bin\Debug\net8.0\Pregunta#1.runtimeconfig.json
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\bin\Debug\net8.0\Pregunta#1.dll
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\bin\Debug\net8.0\Pregunta#1.pdb
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.AssemblyInfoInputs.cache
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.AssemblyInfo.cs
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.csproj.CoreCompileInputs.cache
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.sourcelink.json
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.dll
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\refint\Pregunta#1.dll
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.pdb
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\Pregunta#1.genruntimeconfig.cache
+C:\Users\Javier\OneDrive\Documentos\GitHub\Quiz4\.vs\Quiz4\Pregunta#1\obj\Debug\net8.0\ref\Pregunta#1.dll
