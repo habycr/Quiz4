@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 public static class BubbleSortAlgorithm
 {
@@ -21,84 +20,64 @@ public static class BubbleSortAlgorithm
     }
 }
 
-
-
-public static class Solapador
+public static class UnirIntervalos
 {
-    public static List<int[]> Solapador(int[][] IntervalosOrdenados)
+    public static int[][] UnirIntervalosTraslapados(int[][] intervalos, out int cantidad)
     {
-        if (IntervalosOrdenados == null || IntervalosOrdenados.Length == 0)
-            return new List<int[]>();
+        int[][] resultado = new int[intervalos.Length][];
+        int k = 0;
 
-        // Convertir array a lista
-        List<int[]> listaOrdenada = new List<int[]>(IntervalosOrdenados);
-        List<int[]> lista2 = new List<int[]>();
-
-        // Inicializar lista2 con el primer elemento de listaOrdenada y eliminarlo
-        lista2.Add(listaOrdenada[0]);
-        listaOrdenada.RemoveAt(0);
-
-        while (listaOrdenada.Count > 0)
+        for (int i = 0; i < intervalos.Length; i++)
         {
-            int[] UltimoEnLista2 = lista2[lista2.Count - 1]; // [a, b]
-            int[] PrimeroListaOrdenada = listaOrdenada[0];    // [c, d]
-
-            //  Verificar solapamiento (a <= d and c <= b)
-            if (UltimoEnLista2[0] <= PrimeroListaOrdenada[1] &&
-                PrimeroListaOrdenada[0] <= UltimoEnLista2[1])
+            if (k == 0)
             {
-                // Fusionar: [a, max(b, d)]
-                int[] merged = new int[]
-                {
-                    UltimoEnLista2[0],
-                    Math.Max(UltimoEnLista2[1], PrimeroListaOrdenada[1])
-                };
-
-                // Eliminar [a, b] de lista2 y [c, d] de listaOrdenada
-                lista2.RemoveAt(lista2.Count - 1);
-                listaOrdenada.RemoveAt(0);
-
-                // Agregar el intervalo fusionado a lista2
-                lista2.Add(merged);
+                resultado[k] = new int[] { intervalos[i][0], intervalos[i][1] };
+                k++;
             }
             else
             {
-                // No hay solapamiento, mover [c, d] a lista2
-                lista2.Add(PrimeroListaOrdenada);
-                listaOrdenada.RemoveAt(0);
+                int[] ultimo = resultado[k - 1];
+
+                if (ultimo[1] >= intervalos[i][0])
+                {
+                    if (intervalos[i][1] > ultimo[1])
+                        ultimo[1] = intervalos[i][1];
+                }
+                else
+                {
+                    resultado[k] = new int[] { intervalos[i][0], intervalos[i][1] };
+                    k++;
+                }
             }
         }
 
-        return lista2;
+        cantidad = k;
+        return resultado;
     }
 }
+
 
 class Program
 {
     static void Main()
     {
-        // Ordenar los intervalos con BubbleSort
         int[][] datosOriginal = {
-            new int[] {6,8},
-            new int[] {1,9},
-            new int[] {2,4}
+            new int[] {6, 8},
+            new int[] {1, 9},
+            new int[] {2, 4}
         };
 
+        // Paso 1: Ordenar
         BubbleSortAlgorithm.BubbleSort(datosOriginal);
 
-        Console.WriteLine("Intervalos ordenados por inicio:");
-        foreach (var interval in datosOriginal)
-        {
-            Console.Write($"[{interval[0]}, {interval[1]}] ");
-        }
+        // Paso 2: Unir traslapados
+        int[][] unidos = UnirIntervalos.UnirIntervalosTraslapados(datosOriginal, out int cantidad);
 
-        // Fusionar los intervalos
-        List<int[]> mergedIntervals = Solapador.Solapador(datosOriginal);
-
-        Console.WriteLine("\n\nIntervalos fusionados:");
-        foreach (var interval in mergedIntervals)
+        // Paso 3: Imprimir
+        Console.WriteLine("Intervalos unidos:");
+        for (int i = 0; i < cantidad; i++)
         {
-            Console.Write($"[{interval[0]}, {interval[1]}] ");
+            Console.WriteLine("{" + unidos[i][0] + "," + unidos[i][1] + "}");
         }
     }
 }
