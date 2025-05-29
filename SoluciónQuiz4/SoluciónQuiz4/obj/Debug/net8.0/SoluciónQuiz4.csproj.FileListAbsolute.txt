@@ -1,0 +1,15 @@
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\bin\Debug\net8.0\SoluciónQuiz4.exe
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\bin\Debug\net8.0\SoluciónQuiz4.deps.json
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\bin\Debug\net8.0\SoluciónQuiz4.runtimeconfig.json
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\bin\Debug\net8.0\SoluciónQuiz4.dll
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\bin\Debug\net8.0\SoluciónQuiz4.pdb
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.AssemblyInfo.cs
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.sourcelink.json
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.dll
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\refint\SoluciónQuiz4.dll
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.pdb
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\SoluciónQuiz4.genruntimeconfig.cache
+C:\Users\Home\Documents\GitHub\Quiz4\SoluciónQuiz4\SoluciónQuiz4\obj\Debug\net8.0\ref\SoluciónQuiz4.dll
